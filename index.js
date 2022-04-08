@@ -27,5 +27,17 @@ const player = new Sprite(
     width: 50,
     height: 150
   })
+
+
+const enemy = new Sprite(
+  {
+    x: 100,
+    y: 0
+  },
+  {
+    width: 50,
+    height: 150
+  })
   console.log(player)
   player.draw();
+  enemy.draw();
